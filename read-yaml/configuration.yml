@@ -1,0 +1,42 @@
+#This is a sample yaml with different data structures.
+
+#AWS us-east-1 region specific params
+us-east-1:
+  subnets:
+    - abc123
+    - xyz456
+    - jkl789
+  security-groups:
+    - sg1
+    - sg2
+    - sg3
+  proxy: proxy.abc.xyz
+  proxy-port: 1234
+  sprak-params:
+    jvm-params: "ssl.net.param1"
+    driver-params: "driver params"
+    executor-params: "executor params."
+  hdfs-params:
+    replication: "2"
+    hdfs-param2: "param2"
+
+#AWS us-west-2 region specific params.
+us-west-2:
+  subnets:
+    - abc123
+    - xyz456
+    - jkl789
+  security-groups:
+    - wsg1
+    - wsg2
+    - wsg3
+  proxy: wproxy.abc.xyz
+  proxy-port: 1234
+  sprak-params:
+    jvm-params: "ssl.net.param1w"
+    driver-params: "driver paramsw"
+    executor-params: "executor params.w"
+  hdfs-params:
+    replication: "2"
+    hdfs-param2: "wparam2"
+
