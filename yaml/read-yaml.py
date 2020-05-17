@@ -32,3 +32,4 @@ for region in configs:
 
         # Dict param - convert to string.
         print("Spark params: "+ str(spark_params))
+      
